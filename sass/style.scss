@@ -2,7 +2,7 @@
 
 /* Reset CSS begin */
 
-$color1:hsl(145, 87%, 36%);
+$color1:hsl(195, 58%, 46%);
 $color2:scale-color($color1,$lightness:-15%);
 
 html, body, div, span, applet, object, iframe,
@@ -53,18 +53,18 @@ table {
 /* Reset CSS End*/
 
 @font-face {
-    font-family: 'Source Sans Pro';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Source Sans Pro'), local('SourceSansPro-Regular'), 
-    url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v6/ODelI1aHBYDBqgeIAH2zlBM0YzuT7MdOe03otPbuUS0.woff) format('woff');
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nunito-Regular'), url(http://themes.googleusercontent.com/static/fonts/nunito/v4/0rdItLTcOd8TSMl72RUU5w.woff) format('woff');
 }
 
 h1,h2 {
-    font-family: 'Source Sans Pro'
+    font-family: 'Nunito'
 }
 
 .headstrip {
+    font-family: 'Nunito';
     font-size:50px;
     background-color:rgb(12, 0, 79);
     color:#FFFFFF;
